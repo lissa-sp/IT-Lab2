@@ -38,6 +38,8 @@
             this.tbInitKey = new System.Windows.Forms.RichTextBox();
             this.btnLoadFile = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnShowAllBytes = new System.Windows.Forms.Button();
             this.lblInitKey = new System.Windows.Forms.Label();
             this.btnEncypher = new System.Windows.Forms.Button();
             this.btnCypher = new System.Windows.Forms.Button();
@@ -45,8 +47,6 @@
             this.btnSaveToFile = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.btnShowAllBytes = new System.Windows.Forms.Button();
-            this.btnClear = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -57,6 +57,7 @@
             this.tbInitFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.tbInitFile.Location = new System.Drawing.Point(12, 136);
             this.tbInitFile.Name = "tbInitFile";
+            this.tbInitFile.ReadOnly = true;
             this.tbInitFile.Size = new System.Drawing.Size(560, 157);
             this.tbInitFile.TabIndex = 0;
             this.tbInitFile.Text = "";
@@ -77,6 +78,7 @@
             this.tbCypherText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.tbCypherText.Location = new System.Drawing.Point(12, 508);
             this.tbCypherText.Name = "tbCypherText";
+            this.tbCypherText.ReadOnly = true;
             this.tbCypherText.Size = new System.Drawing.Size(560, 157);
             this.tbCypherText.TabIndex = 2;
             this.tbCypherText.Text = "";
@@ -86,6 +88,7 @@
             this.tbGenKey.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbGenKey.Location = new System.Drawing.Point(12, 343);
             this.tbGenKey.Name = "tbGenKey";
+            this.tbGenKey.ReadOnly = true;
             this.tbGenKey.Size = new System.Drawing.Size(560, 97);
             this.tbGenKey.TabIndex = 3;
             this.tbGenKey.Text = "";
@@ -160,6 +163,32 @@
             this.panel1.Size = new System.Drawing.Size(240, 523);
             this.panel1.TabIndex = 10;
             // 
+            // btnClear
+            // 
+            this.btnClear.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.btnClear.Font = new System.Drawing.Font("Rockwell Condensed", 13.8F);
+            this.btnClear.ForeColor = System.Drawing.Color.DarkGreen;
+            this.btnClear.Location = new System.Drawing.Point(19, 456);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(201, 42);
+            this.btnClear.TabIndex = 14;
+            this.btnClear.Text = "Очистить поля";
+            this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // btnShowAllBytes
+            // 
+            this.btnShowAllBytes.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.btnShowAllBytes.Font = new System.Drawing.Font("Rockwell Condensed", 13.8F);
+            this.btnShowAllBytes.ForeColor = System.Drawing.Color.DarkGreen;
+            this.btnShowAllBytes.Location = new System.Drawing.Point(19, 369);
+            this.btnShowAllBytes.Name = "btnShowAllBytes";
+            this.btnShowAllBytes.Size = new System.Drawing.Size(201, 71);
+            this.btnShowAllBytes.TabIndex = 13;
+            this.btnShowAllBytes.Text = "Показать все биты";
+            this.btnShowAllBytes.UseVisualStyleBackColor = false;
+            this.btnShowAllBytes.Click += new System.EventHandler(this.btnShowAllBytes_Click);
+            // 
             // lblInitKey
             // 
             this.lblInitKey.AutoSize = true;
@@ -222,32 +251,6 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // btnShowAllBytes
-            // 
-            this.btnShowAllBytes.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.btnShowAllBytes.Font = new System.Drawing.Font("Rockwell Condensed", 13.8F);
-            this.btnShowAllBytes.ForeColor = System.Drawing.Color.DarkGreen;
-            this.btnShowAllBytes.Location = new System.Drawing.Point(19, 369);
-            this.btnShowAllBytes.Name = "btnShowAllBytes";
-            this.btnShowAllBytes.Size = new System.Drawing.Size(201, 71);
-            this.btnShowAllBytes.TabIndex = 13;
-            this.btnShowAllBytes.Text = "Показать все биты";
-            this.btnShowAllBytes.UseVisualStyleBackColor = false;
-            this.btnShowAllBytes.Click += new System.EventHandler(this.btnShowAllBytes_Click);
-            // 
-            // btnClear
-            // 
-            this.btnClear.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.btnClear.Font = new System.Drawing.Font("Rockwell Condensed", 13.8F);
-            this.btnClear.ForeColor = System.Drawing.Color.DarkGreen;
-            this.btnClear.Location = new System.Drawing.Point(19, 456);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(201, 42);
-            this.btnClear.TabIndex = 14;
-            this.btnClear.Text = "Очистить поля";
-            this.btnClear.UseVisualStyleBackColor = false;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // frmMain
             // 

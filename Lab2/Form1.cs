@@ -128,7 +128,7 @@ namespace Lab2
         //Запись в файл
         private void btnSaveToFile_Click(object sender, EventArgs e)
         {
-            if (saveFileDialog1.ShowDialog() == DialogResult.Cancel)
+            if (saveFileDialog1.ShowDialog() == DialogResult.Cancel ||bytesOfCypher == null) 
                 return;
 
             string fileName = saveFileDialog1.FileName;
@@ -159,7 +159,7 @@ namespace Lab2
         private void btnCypher_Click(object sender, EventArgs e)
         {
             //Проверка ключа
-            if (!isRightKey())
+            if (!isRightKey() || bytesOfInitText == null)
                 return;
             //Генерация ключевой последовательности
             tbGenKey.Text = generateKey(tbInitKey.Text, bytesOfInitText.Length * 8);
@@ -170,7 +170,7 @@ namespace Lab2
         //Расшифровка
         private void btnEncypher_Click(object sender, EventArgs e)
         {
-            if (!isRightKey()) 
+            if (!isRightKey() || bytesOfInitText == null)
                 return;
 
             tbGenKey.Text = generateKey(tbInitKey.Text, bytesOfInitText.Length * 8);
@@ -190,6 +190,9 @@ namespace Lab2
         //Отображение всех битов
         private void btnShowAllBytes_Click(object sender, EventArgs e)
         {
+            if (bytesOfCypher == null || bytesOfInitText == null || bytesOfGenKey == null)
+                return;
+
             StringBuilder str1 = new StringBuilder("");
             StringBuilder str2 = new StringBuilder("");
             StringBuilder str3 = new StringBuilder("");

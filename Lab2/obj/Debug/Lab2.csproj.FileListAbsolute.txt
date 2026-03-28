@@ -8,3 +8,13 @@ C:\Users\Liza\Desktop\BSUIR\4 sem\ti\Lab2\Lab2\obj\Debug\Lab2.csproj.CoreCompile
 C:\Users\Liza\Desktop\BSUIR\4 sem\ti\Lab2\Lab2\obj\Debug\Lab2.exe
 C:\Users\Liza\Desktop\BSUIR\4 sem\ti\Lab2\Lab2\obj\Debug\Lab2.pdb
 C:\Users\Liza\Desktop\BSUIR\4 sem\ti\Lab2\Lab2\obj\Debug\Lab2.frmMain.resources
+C:\Users\Liza\Desktop\BSUIR\4 sem\ti\Lab2\IT-Lab2\Lab2\bin\Debug\Lab2.exe.config
+C:\Users\Liza\Desktop\BSUIR\4 sem\ti\Lab2\IT-Lab2\Lab2\bin\Debug\Lab2.exe
+C:\Users\Liza\Desktop\BSUIR\4 sem\ti\Lab2\IT-Lab2\Lab2\bin\Debug\Lab2.pdb
+C:\Users\Liza\Desktop\BSUIR\4 sem\ti\Lab2\IT-Lab2\Lab2\obj\Debug\Lab2.csproj.AssemblyReference.cache
+C:\Users\Liza\Desktop\BSUIR\4 sem\ti\Lab2\IT-Lab2\Lab2\obj\Debug\Lab2.frmMain.resources
+C:\Users\Liza\Desktop\BSUIR\4 sem\ti\Lab2\IT-Lab2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+C:\Users\Liza\Desktop\BSUIR\4 sem\ti\Lab2\IT-Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.cache
+C:\Users\Liza\Desktop\BSUIR\4 sem\ti\Lab2\IT-Lab2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
+C:\Users\Liza\Desktop\BSUIR\4 sem\ti\Lab2\IT-Lab2\Lab2\obj\Debug\Lab2.exe
+C:\Users\Liza\Desktop\BSUIR\4 sem\ti\Lab2\IT-Lab2\Lab2\obj\Debug\Lab2.pdb
